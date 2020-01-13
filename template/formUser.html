@@ -1,0 +1,12 @@
+<form class="form-group mt-1 mb-4" action="index.php?controller=user&action={action}" method="POST">
+    {id}
+    <label for="username">Username : </label>
+    <input class="form-control" id='username' type="text" name="username" value="{username}" required><br>
+    <label for="password">Mot de passe :</label>
+    <input class="form-control" id='password' type="password" name="password" value='{password}' required><br>
+    <label for="firstname">Nom :</label>
+    <input class="form-control" id='firstname' type="text" name="firstname" value='{firstname}' required><br>
+    <label for="lastname">Prénom :</label>
+    <input class="form-control" id='lastname' type="text" name="lastname" value='{lastname}' required><br>
+    <input class="btn btn-success col-12" type="submit">
+</form>

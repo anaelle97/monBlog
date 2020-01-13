@@ -1,0 +1,12 @@
+<form class="form-group " action="index.php?controller=new&action={action}" method="POST">
+    {id}
+    <label for="title">Titre : </label>
+    <input class="form-control" id='title' type="text" name="title" value="{title}" required><br>
+    <label for="category">Catégorie :</label>
+    <select class="form-control" id='category' type="text" name="category" required>
+        {categories}
+    </select><br>
+    <label for="description">Description :</label>
+    <textarea class="form-control" id='description' rows="10" type="text" name="description" required>{description}</textarea><br>
+    <input class="btn btn-success col-12 mt-4" type="submit">
+</form>
